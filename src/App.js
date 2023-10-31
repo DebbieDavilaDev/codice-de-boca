@@ -1,14 +1,15 @@
-import './App.css';
-import Home from './components/Home.js/home';
-
+import Hero from './components/Hero'
+import Home from './components/Home'
+import './App.css'
 
 function App() {
   return (
-    <>
-    <div>Welcome to Codice d'Boca</div>
-     <Home />
-     </>
+    <main className='container'>
+        <Hero />
+        <Home />
+     </main>
+         
+         
          )
 }
-
 export default App;
